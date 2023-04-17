@@ -16,6 +16,8 @@
 		0AB2628E29ED52A900BEB845 /* SimpsonBookTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AB2628D29ED52A900BEB845 /* SimpsonBookTests.swift */; };
 		0AB2629829ED52A900BEB845 /* SimpsonBookUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AB2629729ED52A900BEB845 /* SimpsonBookUITests.swift */; };
 		0AB2629A29ED52A900BEB845 /* SimpsonBookUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AB2629929ED52A900BEB845 /* SimpsonBookUITestsLaunchTests.swift */; };
+		0AB262A729ED58E800BEB845 /* DetailsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AB262A629ED58E800BEB845 /* DetailsVC.swift */; };
+		0AB262AB29ED5C0B00BEB845 /* Simpson.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AB262AA29ED5C0B00BEB845 /* Simpson.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +51,8 @@
 		0AB2629329ED52A900BEB845 /* SimpsonBookUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SimpsonBookUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0AB2629729ED52A900BEB845 /* SimpsonBookUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimpsonBookUITests.swift; sourceTree = "<group>"; };
 		0AB2629929ED52A900BEB845 /* SimpsonBookUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimpsonBookUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		0AB262A629ED58E800BEB845 /* DetailsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailsVC.swift; sourceTree = "<group>"; };
+		0AB262AA29ED5C0B00BEB845 /* Simpson.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Simpson.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,10 +106,12 @@
 				0AB2627629ED52A800BEB845 /* AppDelegate.swift */,
 				0AB2627829ED52A800BEB845 /* SceneDelegate.swift */,
 				0AB2627A29ED52A800BEB845 /* ViewController.swift */,
+				0AB262A629ED58E800BEB845 /* DetailsVC.swift */,
 				0AB2627C29ED52A800BEB845 /* Main.storyboard */,
 				0AB2627F29ED52A900BEB845 /* Assets.xcassets */,
 				0AB2628129ED52A900BEB845 /* LaunchScreen.storyboard */,
 				0AB2628429ED52A900BEB845 /* Info.plist */,
+				0AB262AA29ED5C0B00BEB845 /* Simpson.swift */,
 			);
 			path = SimpsonBook;
 			sourceTree = "<group>";
@@ -259,8 +265,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				0AB2627B29ED52A800BEB845 /* ViewController.swift in Sources */,
+				0AB262A729ED58E800BEB845 /* DetailsVC.swift in Sources */,
 				0AB2627729ED52A800BEB845 /* AppDelegate.swift in Sources */,
 				0AB2627929ED52A800BEB845 /* SceneDelegate.swift in Sources */,
+				0AB262AB29ED5C0B00BEB845 /* Simpson.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
